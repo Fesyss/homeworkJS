@@ -5,7 +5,7 @@
 // let surname = prompt("Дайте своє  призьвісько");
 // console.log( surname , "фамілія");
 
-const myName = "Ростик";
+const myName = "Ростислав";
 const mySurname = "Руденко";
 const nameMyFriend = "Богдан";
 const surnameMyFriend = "Таванов"; 
