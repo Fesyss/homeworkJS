@@ -36,9 +36,9 @@ let money = 100;
 console.log(typeof money);
 let surname = "Rudenko";
 console.log(typeof surname);
-let crab = false;
+let isCrab = false;
 console.log(typeof crab);
-let lobster = "false";
+let isLobster = "false";
 console.log(typeof lobster);
 
 
