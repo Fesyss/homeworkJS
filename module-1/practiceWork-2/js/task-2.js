@@ -8,9 +8,10 @@ console.log( surname , "фамілія");
 
 //2
 
-const myAge = "16";
-const ageMyFriend = "15"; 
-alert(`Мені ${myAge}. Моєму другу - ${ageMyFriend} ` );
+const myAge = 16;
+const ageMyFriend = 15; 
+
+alert(myAge+ageMyFriend);
 
 
 //3
@@ -34,7 +35,11 @@ let a4 = 5;
 console.log( a4/3);
 let a5 = 5;
 console.log(a5+3);
-
+alert(a1);
+alert(a2);
+alert(a3);
+alert(a4);
+alert(a5);
 //5
 
 // . Створіть змінні a6, a7, a8, a9, a10. 
@@ -50,7 +55,13 @@ let a9 = "5";
 console.log(a9-3);
 let a10 = 75;
 console.log(a10+"кг");
-alert(`a1-${a1+3} a2-${a2-3} a3-${a3*3 } a4-${a4/3} a5-${a5+3} a6-${a6%3} a7-${a7%5} a8-${a8+"3"} a9-${a9-3} a10-${a10+"кг"}`)
+alert(a6);
+alert(a7);
+alert(a8);
+alert(a9);
+alert(a10);
+
+// alert(`a1-${a1+3} a2-${a2-3} a3-${a3*3 } a4-${a4/3} a5-${a5+3} a6-${a6%3} a7-${a7%5} a8-${a8+"3"} a9-${a9-3} a10-${a10+"кг"}`)
 
 //6
 
@@ -84,7 +95,9 @@ const n = 3;
 console.log(`${n} - 1 сторона `);
 const m = 4;
 console.log(`${m} - 2 сторона `);
-const k = (3**2 /5) + (4**2 /5)  ;
+// const k = Math.sqrt((3**2 /5) + (4**2 /5));
+const k = Math.sqrt(n ** 2 + m ** 2);
+// const k = (3**2 /5) + (4**2 /5)  ;
 console.log(`${k} - гіпотенуза `);
 
 //
