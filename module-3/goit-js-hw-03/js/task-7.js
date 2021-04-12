@@ -69,4 +69,4 @@ console.log(account.getBalance());
 console.log(account.getTransactionDetails(2));
 console.log(account.getTransactionTotal(Transaction.DEPOSIT));
 console.log(account.getTransactionTotal(Transaction.WITHDRAW));
-console.log('Кінець всіх сьомої задачі ');
+console.log('Кінець всіх сьомої задачі');
